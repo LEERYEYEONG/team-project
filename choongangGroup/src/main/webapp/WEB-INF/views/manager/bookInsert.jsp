@@ -251,7 +251,7 @@ function readURL(input) {
 								<div class="d-flex justify-content-center
 								
 								">
-									<button type="submit" id="register_Btn" class="btn btn-light">등록</button>
+									<button type="submit" id="register_Btn" class="btn btn-primary btn-sm font09">등록</button>
 								</div>
 								</div>
 						</form>

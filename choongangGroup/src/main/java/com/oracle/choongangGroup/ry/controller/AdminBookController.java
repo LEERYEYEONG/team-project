@@ -98,7 +98,7 @@ private final GetMember gm;
 	public void BookListGet(String currentPage,Member member, Model model) {
 		BookVo book= new BookVo();
 		int processTotal = abs.processTotal();
-		
+		member = gm.getMember();
 		Paging page = new Paging(processTotal, currentPage);
 		book.setStart(page.getStart());
 		book.setEnd(page.getEnd());
@@ -117,7 +117,6 @@ private final GetMember gm;
 		log.info(userid);
 		log.info(cateParent);
 		log.info(keyword);
-		
 		List<BookVo> bookList = abs.bookSearchList(book);
 		log.info("bookList.size()->{}", bookList.size());
 		System.out.println();
@@ -162,7 +161,7 @@ private final GetMember gm;
 	
 	@PostMapping(value = "manager/updateBook")
 	public String updateBookPost(BookVo book, MultipartFile file, HttpServletRequest request) throws Exception {
-		
+		Member member = gm.getMember();
 
 		if(file.getOriginalFilename() != null && !file.getOriginalFilename().equals("")) {
 		// 기존 파일을 삭제

@@ -173,21 +173,21 @@
 							<h5><a href="/notice/noticeList">공지사항</a></h5><hr>
 
 						</div> -->
-						<div class="col-md-6  rounded overflow-auto bg-light p-4" style="max-height: 300px;"> 
+						<div class="col-md-6  rounded overflow-auto bg-light p-4" style="min-height: 300px;"> 
 							<h5>시간표</h5><hr>
 							<!--------------------------------- 시간표 -------------------------------------->
 							<div class="mt-1 timetable" >
 								<table class="timetable" style="background-color: #F2F8F8 ; color: 	#003A9D" >								
 												<thead >
-												<tr >
-													<th style="width: 6%; ">시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>											
+												<tr style="text-align: center;">
+													<th style="width: 10%;  ">시간</th><th style="width: 18%;">월</th><th style="width: 18%;">화</th><th style="width: 18%;">수</th><th style="width: 18%;">목</th><th style="width: 18%;">금</th>											
 												</tr>
 												</thead>									
 												<tbody>			
 													
 									<c:forEach var="j" begin="1" end="7">	
-										<tr>
-											<td style="width: 6%">${j }교시</td>	
+										<tr style="height: 50px; text-align: center; font-size:13px;">
+											<td style="width: 10%">${j }교시</td>	
 											
 											<c:forEach var="d" items="${day }">
 															

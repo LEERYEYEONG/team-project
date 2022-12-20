@@ -254,7 +254,7 @@ button:disabled {
 																<input type="hidden" name="bookStock" id="bookStock" class="bookStock" value="${orderView.bookStock}" />
 																 <p><span>준비상태</span>${orderView.state}
 							<!-- 									<button type="submit" name="state1_btn" id="state1_btn" class="state1_btn" onclick="chk()" value="준비완료">준비 완료</button> -->
-																<button style="margin-left: 10px;" type="button" name="state1_btn" id="state1_btn" class="state1_btn" value="준비 완료" onclick="chk()">준비 완료</button>
+																<button style="margin-left: 10px;" type="button" name="state1_btn" id="state1_btn" class="btn btn-primary btn-sm font09" value="준비 완료" onclick="chk()">준비 완료</button>
 																</p>
 																<!-- <script type="text/javascript">
 																function chk(){
@@ -273,7 +273,7 @@ button:disabled {
 																	});
 																</script> -->
 																<p><span>결제상태</span>${orderView.billState}
-																<button style="margin-left: 10px;" type="submit"  name="state1_btn" id="state1_btn"  class="state1_btn" value="수령 완료" style="">수령 완료</button>
+																<button style="margin-left: 10px;" type="submit"  name="state1_btn" id="state1_btn"  class="btn btn-primary btn-sm font09" value="수령 완료" style="">수령 완료</button>
 																</p>
 															</form>
 														</div>

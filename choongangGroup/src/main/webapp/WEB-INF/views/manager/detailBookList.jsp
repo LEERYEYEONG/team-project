@@ -177,8 +177,8 @@ $(function(){
 								</div>
 								
 								<div class="inputArea">
-								 <button type="button" id="update_Btn" class="btn btn-warning" onclick="location.href='/manager/updateBook?bookId=${books.bookId}'">수정</button>
-								 <button type="button" id="delete_Btn" class="btn btn-danger"   onclick="location.href='/manager/deleteBook?bookId=${books.bookId}'" >삭제</button>
+								 <button type="button" id="update_Btn" class="btn btn-primary btn-sm font09" onclick="location.href='/manager/updateBook?bookId=${books.bookId}'">수정</button>
+								 <button type="button" id="delete_Btn" class="btn btn-primary btn-sm font09"   onclick="location.href='/manager/deleteBook?bookId=${books.bookId}'" >삭제</button>
 								</div>
 						</form>
 					</section>
