@@ -512,7 +512,7 @@ document.addEventListener("DOMContentLoaded", function(){
 														<input type="hidden" name="orderId" value="${orderView.orderId}" />
 														<input type="hidden" name="state" id="state" class="state"	value="${orderView.state }" />
 														<input type="hidden" name="billState" id="billState" class="billState"	value="${orderView.billState }" />
-														<button type="submit" name="state1_btn" id="state1_btn"	class="state1_btn" value="주문 취소" onclick="btnDisabled()" style="margin-left: 20px;" >주문 취소</button>
+														<button type="submit" name="state1_btn" id="state1_btn"	class="btn btn-primary btn-sm font09" value="주문 취소" onclick="btnDisabled()" style="margin-left: 20px;" >주문 취소</button>
 													</form>
 												</div>
 												</p>
@@ -526,7 +526,7 @@ document.addEventListener("DOMContentLoaded", function(){
 														<input type="hidden" name="amount" id="amount" value="${orderView.amount}" />
 														<input type="hidden" name="state" id="state" class="state"	value="${orderView.state }" />
 														<input type="hidden" name="billState" id="billState" class="billState"	value="${orderView.billState }" />
-															<button type="button" name="state2_btn" id="state2_btn"	class="state2_btn" value="결제 완료" onclick="requestPay()" style="margin-left: 15px;">결제</button>
+															<button type="button" name="state2_btn" id="state2_btn"	class="btn btn-primary btn-sm font09" value="결제 완료" onclick="requestPay()" style="margin-left: 15px;">결제</button>
 													</form>
 												</div>
 												</p>

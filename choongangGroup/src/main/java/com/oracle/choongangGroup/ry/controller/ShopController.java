@@ -43,7 +43,6 @@ public class ShopController {
 	public void shopList(String currentPage,Member member,Model model) throws Exception {
 		BookVo book= new BookVo();
 		int processTotal = ss.processTotal();
-		
 		Paging page = new Paging(processTotal, currentPage);
 		book.setStart(page.getStart());
 		book.setEnd(page.getEnd());

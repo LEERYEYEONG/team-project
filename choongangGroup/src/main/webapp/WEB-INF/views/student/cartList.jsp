@@ -560,10 +560,10 @@ div.books p.buyStock input {
 
 											<div class="inputArea">
 												<!-- 						<button type="submit" class="order_btn" onclick="requestPay()">주문</button> -->
-												<button type="submit" id="order_btn" class="btn btn-light">주문</button>
+												<button type="submit" id="order_btn" class="btn btn-primary btn-sm font09">주문</button>
 
 												<button type="button" id="cancel_btn" name="cancel_btn"
-													class="btn btn-light">취소</button>
+													class="btn btn-primary btn-sm font09">취소</button>
 												<script type="text/javascript">
 								$(".orderOpen_btn").click(function() {
 									$(".orderInfo").slideDown();

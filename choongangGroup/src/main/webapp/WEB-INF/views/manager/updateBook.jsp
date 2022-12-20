@@ -258,8 +258,8 @@ function readURL(input) {
 								
 								<div class="inputArea">
 								<div class="d-flex justify-content-center">
-									<button type="submit" id="update_Btn" class="btn btn-light" style="margin-right: 10px;">수정</button>
-						 			<button type="button" id="back_Btn" class="btn btn-light" value="뒤로가기" onclick="goBack();" >뒤로가기</button>
+									<button type="submit" id="update_Btn" class="btn btn-primary btn-sm font09" style="margin-right: 10px;">수정</button>
+						 			<button type="button" id="back_Btn" class="btn btn-primary btn-sm font09" value="뒤로가기" onclick="goBack();" >뒤로가기</button>
 						 		</div>
 								</div>
 						</form>
